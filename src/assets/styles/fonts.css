@@ -92,3 +92,31 @@
 		 url('/assets/fonts/TildaSans-Black.woff') format('woff');
 	font-display: swap;  
   }
+
+  /*Golos*/
+
+  @font-face {
+	font-family: 'GolosUI';
+	font-weight: 400;
+	font-style: normal;
+	src: 
+		url('/assets/fonts/golos-ui_regular.woff2') format('woff2'),
+		url('/assets/fonts/golos-ui_regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'GolosUI';
+	font-weight: 500;
+	font-style: normal;
+	src: 
+		url('/assets/fonts/golos-ui_medium.woff2') format('woff2'),
+		url('/assets/fonts/golos-ui_medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'GolosUI';
+	font-weight: 700;
+	font-style: normal;
+	src: 
+		url('/assets/fonts/golos-ui_bold.woff2') format('woff2'),
+		url('/assets/fonts/golos-ui_bold.woff') format('woff');
+}
